@@ -276,6 +276,13 @@ Exposed via LoadBalancer for public access.
 
 Resolved networking & image pulling issues during deployment.
 There is still one problem which is yet to be resolved
+ ---
 # ACCESS APPLICATION
 http://13.50.100.181:30081/
+ ---
+ #Avoid mistakes
+ Issue: Service EXTERNAL-IP stayed in <pending>.
+ solution  You tagged all public subnets with:
+        kubernetes.io/cluster/<your-cluster-name> = shared
+kubernetes.io/role/elb = 1
 
