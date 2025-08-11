@@ -226,7 +226,7 @@ kubectl get svc
 
 ---
 
-Troubleshooting
+#Troubleshooting
 
 1. LoadBalancer Stuck in Pending
 
@@ -276,4 +276,4 @@ Exposed via LoadBalancer for public access.
 
 Resolved networking & image pulling issues during deployment.
 There is still one problem which is yet to be resolved
-# BRUDITE-PVT
+
