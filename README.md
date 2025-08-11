@@ -62,8 +62,7 @@ Kubernetes manifests for Deployment and Service configuration.
 ---
 
 Architecture
-
-    [Local Machine]
+[Local Machine]
     |
     | Docker Build + Push
     v
@@ -250,7 +249,7 @@ Add imagePullSecrets in deployment spec and reapply.
 
 ---
 
-🌐 Accessing the Application
+ Accessing the Application
 
 Once the LoadBalancer gets an external IP/DNS:
 
