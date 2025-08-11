@@ -257,9 +257,8 @@ http://<EXTERNAL-IP>/
 
 If no external IP:
 
-kubectl port-forward deployment/brudite-deployment 3000:3000
+kubectl port-forward deployment/brudite-deployment 3000:3000 (TEST LOCALLY)
 
-Open http://localhost:3000.
 
 
 ---
